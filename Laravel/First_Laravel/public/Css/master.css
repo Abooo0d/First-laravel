@@ -1,0 +1,138 @@
+body {
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin: 10px;
+}
+nav a {
+  padding: 5px;
+  background-color: crimson;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+nav a:hover {
+  background-color: white;
+  color: crimson;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 31px);
+  flex-direction: column;
+}
+h1 {
+  font-size: 30px;
+  color: crimson;
+  border-left: 5px solid crimson;
+  padding-left: 8px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.3s;
+  color: crimson;
+  font-size: 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 400px;
+  border: 2px solid crimson;
+}
+ul li:hover {
+  color: white;
+  background-color: crimson;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info > span {
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info span span {
+  padding: 5px;
+  width: 50px;
+  text-align: left;
+  display: inline-block;
+  background-color: crimson;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+}
+form {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border: 3px solid crimson;
+  border-radius: 6px;
+  background-color: bisque;
+}
+form div {
+  min-width: 350px;
+  padding: 0;
+}
+form div label {
+  color: crimson;
+  font-weight: 600;
+  font-size: 20px;
+  padding-right: 20px;
+  width: 75px;
+  display: inline-block;
+}
+form div input[type="text"] {
+  width: 232px;
+  border: 2px solid crimson;
+  border-radius: 6px;
+  font-size: 20px;
+  outline: none;
+}
+form div input[type="text"]:hover {
+  outline: none;
+}
+form div input[type="submit"] {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  background-color: crimson;
+  color: white;
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 20px;
+}
